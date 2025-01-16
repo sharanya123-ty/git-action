@@ -69,4 +69,4 @@ jobs:
           echo "Deploying the script"
           sudo chown -R ubuntu:ubuntu /opt
           cd /opt/apache-tomcat-10.1.34/webapps/
-          curl -L -u "admin:cmVmdGtuOjAxOjE3Njg1OTQ3MTc6SGFibkRQR0JsMUd5TzVFUGJCTnNWSXljU3RC" -O "http://13.233.110.114:8082/artifactory/git-action-libs-release/com/efsavage/hello-world-war/1.0.7/git_actions-1.0.7.war"
+          curl -L -u "admin:cmVmdGtuOjAxOjE3Njg1OTQ3MTc6SGFibkRQR0JsMUd5TzVFUGJCTnNWSXljU3RC" -O "http://3.111.245.233:8082/artifactory/git-action-libs-release/com/efsavage/hello-world-war/git-action-1.0.3.war"
